@@ -33,7 +33,7 @@
 			<div class="menu-wrap">
 				<ul class="main-nav">
 					<li class="menu-item"><a href="#home" onclick="display_menu(1)">Home</a></li>
-					<li class="menu-item"><a href="#portfolio" onclick="display_menu(2)">Portfolio</a>
+					<li class="menu-item"><a href="#portfolio" onclick="display_menu(2)"><strong>Portfolio</strong></a>
 						<ul class="sub-menu">
 							<li class="sub-item"><a href="#">Automotive</a></li>
 							<li class="sub-item"><a href="#">Portraits</a></li>
