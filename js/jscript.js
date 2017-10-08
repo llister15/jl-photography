@@ -15,20 +15,14 @@ function display_menu( item ) {
 	}
 	if ( item == 2) {
 		submenu[0].style.display ="block";
-		menulist[2].classList.remove('active');
-		menulist[3].classList.remove('active');
 		menulist[1].classList.add('active');
 	}
 	if ( item == 3) {
 		submenu[0].style.display ="none";
 		menulist[1].classList.remove('active');
-		menulist[3].classList.remove('active');
-		menulist[2].classList.add('active');
 	}
 	if ( item == 4) {
 		submenu[0].style.display ="none";
 		menulist[1].classList.remove('active');
-		menulist[2].classList.remove('active');
-		menulist[3].classList.add('active');
 	}
 }

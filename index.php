@@ -11,10 +11,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>J L Photography | Home</title>
+	<title>Photo Lister | Portfolio Site</title>
 	<meta charset="UTF-8">
   <meta name="description" content="Jonathan Lister's portfolio site">
-  <meta name="keywords" content="Photography, camera, photos, car photos, wedding photos, profiles">
+  <meta name="keywords" content="Photography, camera, photos, car photos, wedding photos, profiles, Architecture, Graduation">
   <meta name="author" content="Jonathan Lister">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -32,14 +32,15 @@
 		<div class="header-content">
 			<div class="menu-wrap">
 				<ul class="main-nav">
-					<li class="menu-item"><a href="#home" onclick="display_menu(1)">Home</a></li>
+					<li class="menu-item"><a href="#pricing" onclick="display_menu(1)">Pricing</a></li>
 					<li class="menu-item"><a href="#portfolio" onclick="display_menu(2)"><strong>Portfolio</strong></a>
 						<ul class="sub-menu">
+							<li class="sub-item"><a href="#">Architecture</a></li>
 							<li class="sub-item"><a href="#">Automotive</a></li>
+							<li class="sub-item"><a href="#">Landscapes</a></li>
 							<li class="sub-item"><a href="#">Portraits</a></li>
 							<li class="sub-item"><a href="#">Graduation</a></li>
 							<li class="sub-item"><a href="#">Wedding</a></li>
-							<li class="sub-item"><a href="#">Landscapes</a></li>
 						</ul> <!-- /sub-menu -->
 					</li>
 					<li class="menu-item"><a href="#connect" onclick="display_menu(3)">Connect</a></li>
@@ -47,6 +48,9 @@
 				</ul>
 			</div> <!-- /menu-wrap -->
 		</div> <!-- /header-content -->
+			<div class="design-message">
+				Created by <a href="https://wonkasoft.com" target="_blank">Wonkasoft</a>
+			</div> <!-- /design-message -->
 	</header> <!-- /header -->
 <script type="text/javascript" src="js/jscript.js"></script>
 </body>

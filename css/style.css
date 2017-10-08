@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
 * {
 	box-sizing: border-box;
 }
 
  .main-nav a, .sub-menu a, .sub-menu, .active,
  .main-nav {
-	-webkit-transition: ease-in-out .25s; /* Safari */
-  transition: ease-in-out .25s;
+	-webkit-transition: ease-in-out .1s; /* Safari */
+  transition: ease-in-out .1s;
  }
 
 body {
 	margin:0;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	font-size: 1rem;
 	line-height: 1.5;
 	color:#333;
@@ -111,7 +113,7 @@ body {
 
 .main-nav a:hover {
 	padding-right: 20px;
-	font-size: 2.8rem;
+	font-size: 2.6rem;
 }
 
 .active {
@@ -125,7 +127,7 @@ body {
 	position: absolute;
 	right: 100%;
 	top: 50%;
-	margin-top: -13px;
+	margin-top: -16px;
 	width: 0;
 	height: 0;
 	border-top: 12px solid transparent;
@@ -136,6 +138,7 @@ body {
 
 .sub-menu {
 	position: absolute;
+	font-weight: 100;
 	display: none;
 	font-size: 1.8rem;
 	top: -12vh;
@@ -145,7 +148,7 @@ body {
 }
 
 .sub-item {
-	height:2.9rem;
+	height:2.8rem;
 }
 
 .sub-menu a {
@@ -154,7 +157,25 @@ body {
 }
 
 .sub-menu a:hover {
-	font-size: 2.1rem;
+	font-size: 1.9rem;
+	font-weight: 300;
+}
+
+.design-message {
+	position: absolute;
+	font-size: .9rem;
+	right:1.5rem;
+	bottom:1rem;
+	z-index: 4;
+}
+
+.design-message a {
+	color:#fff;
+	text-decoration:none;
+}
+
+.design-message a:hover {
+	color: #ccc;
 }
 
 @media(max-width:960px) {
