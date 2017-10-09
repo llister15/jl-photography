@@ -16,6 +16,8 @@ function display_menu( item ) {
 		for (i = 0; i < menulist.length; i++) {
 			menulist[i].classList.remove('active');
 		}
+		var pricing = document.getElementById('pricing');
+		pricing.style.width = "75%";
 		break;
 		case 2:
 		submenu.style.opacity="1";
