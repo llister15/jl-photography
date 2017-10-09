@@ -52,14 +52,14 @@
 						Created by <a href="https://wonkasoft.com" target="_blank">Wonkasoft</a>
 					</div> <!-- /design-message -->
 			</header> <!-- /header -->
-			<main id="main-content">
-				<div id="category-title"></div>
-				<div id="photo-viewer"></div>
-				<div id="photos-selector"></div>
-			</main>
 			<section id="pricing">
 					<div id="pricing-title">Pricing</div>
 					<div id="pricing-content"></div>
+			</section>
+			<section id="portfolio">
+				<div id="category-title"></div>
+				<div id="photo-viewer"></div>
+				<div id="photos-selector"></div>
 			</section>
 			<section id="connect">
 					<div id="connect-title">Follow Me</div>
