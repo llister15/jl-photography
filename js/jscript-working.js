@@ -3,7 +3,6 @@
 // since 1.0.0
 // package Jonathan
 
-
 function display_menu( item ) {
 	var menulist = document.getElementsByClassName('menu-item');
 	var submenu = document.getElementById('sub-menu');
