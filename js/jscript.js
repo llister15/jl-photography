@@ -47,7 +47,22 @@ function submenu_action(el) {
 	var maincontent = document.getElementById('main-content');
 		maincontent.style.width = "75%";
 		document.getElementById('category-title').innerHTML = ':::  ' + el.textContent + '  :::';
+
+		var xhttp = new XMLHttpRequest();
+		var args = "post"+el.textContent;
+  	xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    	alert(this.responseText);
+      document.getElementById("photos-selector").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("POST", "./php/ajax.php", true);
+  //Send the proper header information along with the request
+	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xhttp.send("data="+el.textContent);
+
 }, 0);
+
 }
 
 function home() {
