@@ -36,7 +36,7 @@ function display_menu( item ) {
 	}
 }
 
-function submenu_action() {
+function submenu_action(el) {
 	var logo = document.getElementsByClassName('top-logo')[0];
 	logo.classList.add('logo-shift-right');
 	setTimeout(function() {
@@ -44,6 +44,9 @@ function submenu_action() {
 		logoshift.style.right ="75px";
 	var menushift = document.getElementsByClassName('menu-wrap')[0];
 		menushift.style.right ="-224px";
+	var maincontent = document.getElementById('main-content');
+		maincontent.style.width = "75%";
+		document.getElementById('category-title').innerHTML = ':::  ' + el.textContent + '  :::';
 }, 0);
 }
 
@@ -53,5 +56,7 @@ function home() {
 		logoshift.style.right ="calc(85% / 2)";
 	var menushift = document.getElementsByClassName('menu-wrap')[0];
 		menushift.style.right ="280px";
+		var maincontent = document.getElementById('main-content');
+		maincontent.style.width = "0%";
 }, 0);
 }

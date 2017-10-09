@@ -34,12 +34,12 @@
 							<li class="menu-item"><a href="#pricing" onclick="display_menu(1)">Pricing</a></li>
 							<li class="menu-item"><a href="#portfolio" onclick="display_menu(2)"><strong>Portfolio</strong></a>
 								<ul class="sub-menu" id="sub-menu">
-									<li class="sub-item"><a href="#" onclick="submenu_action()">Architecture</a></li>
-									<li class="sub-item"><a href="#" onclick="submenu_action()">Automotive</a></li>
-									<li class="sub-item"><a href="#" onclick="submenu_action()">Landscapes</a></li>
-									<li class="sub-item"><a href="#" onclick="submenu_action()">Portraits</a></li>
-									<li class="sub-item"><a href="#" onclick="submenu_action()">Graduation</a></li>
-									<li class="sub-item"><a href="#" onclick="submenu_action()">Wedding</a></li>
+									<li class="sub-item"><a href="#" onclick="submenu_action(this)">Architecture</a></li>
+									<li class="sub-item"><a href="#" onclick="submenu_action(this)">Automotive</a></li>
+									<li class="sub-item"><a href="#" onclick="submenu_action(this)">Landscapes</a></li>
+									<li class="sub-item"><a href="#" onclick="submenu_action(this)">Portraits</a></li>
+									<li class="sub-item"><a href="#" onclick="submenu_action(this)">Graduation</a></li>
+									<li class="sub-item"><a href="#" onclick="submenu_action(this)">Wedding</a></li>
 								</ul> <!-- /sub-menu -->
 							</li>
 							<li class="menu-item"><a href="#connect" onclick="display_menu(3)">Connect</a></li>
@@ -51,6 +51,11 @@
 						Created by <a href="https://wonkasoft.com" target="_blank">Wonkasoft</a>
 					</div> <!-- /design-message -->
 			</header> <!-- /header -->
+			<main id="main-content">
+				<div id="category-title"></div>
+				<div id="photo-viewer"></div>
+				<div id="photos-selector"></div>
+			</main>
 	</div> <!-- /fullscreen-video-wrap -->
 <script type="text/javascript" src="js/jscript.js"></script>
 </body>
