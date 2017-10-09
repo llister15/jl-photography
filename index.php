@@ -84,6 +84,6 @@
 			</section>
 
 	</div> <!-- /fullscreen-video-wrap -->
-<script type="text/javascript" src="js/jscript.js"></script>
+<script type="text/javascript" src="js/jscript.min.js"></script>
 </body>
 </html>
