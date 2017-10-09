@@ -45,7 +45,7 @@ function submenu_action(el) {
 		logoshift.style.right ="75px";
 	var menushift = document.getElementsByClassName('menu-wrap')[0];
 		menushift.style.right ="-224px";
-	var maincontent = document.getElementById('main-content');
+	var maincontent = document.getElementById('portfolio');
 		maincontent.style.width = "75%";
 		document.getElementById('category-title').innerHTML = ':::  ' + el.textContent + '  :::';
 
@@ -81,7 +81,7 @@ function home() {
 		logoshift.style.right ="calc(85% / 2)";
 	var menushift = document.getElementsByClassName('menu-wrap')[0];
 		menushift.style.right ="280px";
-		var maincontent = document.getElementById('main-content');
+		var maincontent = document.getElementById('portfolio');
 		maincontent.style.width = "0%";
 }, 0);
 }
