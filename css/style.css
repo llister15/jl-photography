@@ -3,6 +3,14 @@
 	box-sizing: border-box;
 }
 
+html, body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
  .main-nav a, .active,
  .main-nav {
 	-webkit-transition: all ease-in-out .1s; /* Safari */
@@ -16,23 +24,20 @@ body {
 	font-weight: 300;
 	font-size: 1rem;
 	line-height: 1.5;
-	color:#333;
+	color:#fff;
 	overflow-x: hidden; 
 }
 
-.v-header {
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	color: #fff;
-}
-
 .container {
-	max-width: 960px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
 	padding-left: 1rem;
 	padding-right: 1rem;
 	margin: auto;
 	text-align: center;
+	z-index: 5;
 }
 
 .fullscreen-video-wrap {
@@ -65,10 +70,9 @@ body {
 }
 
 .top-logo-wrap {
-	position: absolute;
-	top: 10vh;
-	left: 40vw;
-	z-index: 3;
+	position: relative;
+	top: 75px;
+	width: 100%;
 	text-align: center;
 }
 
@@ -89,9 +93,9 @@ body {
 }
 
 .menu-wrap {
-	position: absolute;
-	right: 20vw;
-	top: 40vh;
+	position: relative;
+	right: 250px;
+	top: 225px;
 }
 
 .main-nav {
@@ -105,6 +109,7 @@ body {
 	position: relative;
 	padding-left:60px;
 	height:4.9rem;
+	display: block;
 }
 
 .main-nav a {
@@ -119,18 +124,16 @@ body {
 }
 
 .active {
-	display: inline-block;
+	display: block;
 }
 
 .active:after {
 	content: '';
-	display: inline-block;  
+	display: block;  
 	position: absolute;
-	right: 100%;
+	right: 210px;
 	top: 50%;
 	margin-top: -16px;
-	width: 0;
-	height: 0;
 	border-top: 12px solid transparent;
 	border-right: 20px solid #fff;
 	border-bottom: 12px solid transparent;
@@ -140,14 +143,14 @@ body {
 #sub-menu {
 	position: absolute;
 	font-weight: 100;
-	display: inline-block;
+	display: block;
 	font-size: 1.8rem;
-	top: -15vh;
-	right: 18vw;
+	top: -135px;
+	right: 265px;
 	list-style-type: none;
 	opacity: 0;
-	-webkit-transition: all ease-in-out 10s; /* Safari */
-  transition: all ease-in-out 10s;	
+	-webkit-transition: all ease-in-out .5s; /* Safari */
+  transition: all ease-in-out .5s;	
 }
 
 .sub-item {

@@ -21,37 +21,37 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header class="v-header container">
-		<div class="fullscreen-video-wrap">
-			<video src="video/lens-bg-video.mp4" autoplay="true" loop="true"></video>
-		</div> <!-- /fullscreen-video-wrap -->
-		<div class="header-overlay"></div> <!--/header-overlay -->
-		<div class="top-logo-wrap">
-			<img src="img/logo.png" class="top-logo" alt="logo" />
-		</div> <!-- /top-logo -->
-		<div class="header-content">
-			<div class="menu-wrap">
-				<ul class="main-nav" id="main-nav">
-					<li class="menu-item"><a href="#pricing" onclick="display_menu(1)">Pricing</a></li>
-					<li class="menu-item"><a href="#portfolio" onclick="display_menu(2)"><strong>Portfolio</strong></a>
-						<ul class="sub-menu" id="sub-menu">
-							<li class="sub-item"><a href="#">Architecture</a></li>
-							<li class="sub-item"><a href="#">Automotive</a></li>
-							<li class="sub-item"><a href="#">Landscapes</a></li>
-							<li class="sub-item"><a href="#">Portraits</a></li>
-							<li class="sub-item"><a href="#">Graduation</a></li>
-							<li class="sub-item"><a href="#">Wedding</a></li>
-						</ul> <!-- /sub-menu -->
-					</li>
-					<li class="menu-item"><a href="#connect" onclick="display_menu(3)">Connect</a></li>
-					<li class="menu-item"><a href="#about-me" onclick="display_menu(4)">About me</a></li>
-				</ul>
-			</div> <!-- /menu-wrap -->
-		</div> <!-- /header-content -->
-			<div class="design-message">
-				Created by <a href="https://wonkasoft.com" target="_blank">Wonkasoft</a>
-			</div> <!-- /design-message -->
-	</header> <!-- /header -->
+	<div class="fullscreen-video-wrap">
+		<video src="video/lens-bg-video.mp4" autoplay="true" loop="true"></video>
+			<div class="header-overlay"></div> <!--/header-overlay -->
+			<header class="container">
+				<div class="top-logo-wrap">
+					<img src="img/logo.png" class="top-logo" alt="logo" />
+				</div> <!-- /top-logo -->
+				<div class="header-content">
+					<div class="menu-wrap">
+						<ul class="main-nav" id="main-nav">
+							<li class="menu-item"><a href="#pricing" onclick="display_menu(1)">Pricing</a></li>
+							<li class="menu-item"><a href="#portfolio" onclick="display_menu(2)"><strong>Portfolio</strong></a>
+								<ul class="sub-menu" id="sub-menu">
+									<li class="sub-item"><a href="#">Architecture</a></li>
+									<li class="sub-item"><a href="#">Automotive</a></li>
+									<li class="sub-item"><a href="#">Landscapes</a></li>
+									<li class="sub-item"><a href="#">Portraits</a></li>
+									<li class="sub-item"><a href="#">Graduation</a></li>
+									<li class="sub-item"><a href="#">Wedding</a></li>
+								</ul> <!-- /sub-menu -->
+							</li>
+							<li class="menu-item"><a href="#connect" onclick="display_menu(3)">Connect</a></li>
+							<li class="menu-item"><a href="#about-me" onclick="display_menu(4)">About me</a></li>
+						</ul>
+					</div> <!-- /menu-wrap -->
+				</div> <!-- /header-content -->
+					<div class="design-message">
+						Created by <a href="https://wonkasoft.com" target="_blank">Wonkasoft</a>
+					</div> <!-- /design-message -->
+			</header> <!-- /header -->
+	</div> <!-- /fullscreen-video-wrap -->
 <script type="text/javascript" src="js/jscript.js"></script>
 </body>
 </html>
