@@ -84,3 +84,7 @@ function home() {
 		maincontent.style.width = "0%";
 }, 0);
 }
+
+function load_img(el) {
+	document.getElementById("photo-viewer").innerHTML = '<img src="' + el.getElementsByTagName('img')[0].src + '" class="in-viewer" />';
+}
