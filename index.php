@@ -31,10 +31,10 @@
 		</div> <!-- /top-logo -->
 		<div class="header-content">
 			<div class="menu-wrap">
-				<ul class="main-nav">
+				<ul class="main-nav" id="main-nav">
 					<li class="menu-item"><a href="#pricing" onclick="display_menu(1)">Pricing</a></li>
 					<li class="menu-item"><a href="#portfolio" onclick="display_menu(2)"><strong>Portfolio</strong></a>
-						<ul class="sub-menu">
+						<ul class="sub-menu" id="sub-menu">
 							<li class="sub-item"><a href="#">Architecture</a></li>
 							<li class="sub-item"><a href="#">Automotive</a></li>
 							<li class="sub-item"><a href="#">Landscapes</a></li>
