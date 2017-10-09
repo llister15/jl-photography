@@ -65,20 +65,29 @@ body {
 	opacity: .9;
 }
 
-.header-content {
-	z-index: 2;
-}
-
 .top-logo-wrap {
 	position: relative;
 	top: 75px;
+	height: 135px;
 	width: 100%;
 	text-align: center;
 }
 
 .top-logo {
+	position: relative;
 	max-width: 260px;
 	margin: 0 auto;
+	float: right;
+	right: calc(85% / 2);
+}
+
+.logo-shift-right {
+	-webkit-transition: all ease-in-out .5s; /* Safari */
+  transition: all ease-in-out .5s;
+}
+
+.header-content {
+	clear: both;
 }
 
 .header-content h1 {
@@ -94,8 +103,10 @@ body {
 
 .menu-wrap {
 	position: relative;
-	right: 250px;
+	right: 280px;
 	top: 225px;
+	-webkit-transition: all ease-in-out .5s; /* Safari */
+  transition: all ease-in-out .5s;	
 }
 
 .main-nav {
@@ -149,6 +160,7 @@ body {
 	right: 265px;
 	list-style-type: none;
 	opacity: 0;
+	z-index:6;
 	-webkit-transition: all ease-in-out .5s; /* Safari */
   transition: all ease-in-out .5s;	
 }

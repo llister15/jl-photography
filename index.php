@@ -26,7 +26,7 @@
 			<div class="header-overlay"></div> <!--/header-overlay -->
 			<header class="container">
 				<div class="top-logo-wrap">
-					<img src="img/logo.png" class="top-logo" alt="logo" />
+					<a href="#home" onclick="home()"><img src="img/logo.png" class="top-logo" alt="logo" /></a>
 				</div> <!-- /top-logo -->
 				<div class="header-content">
 					<div class="menu-wrap">
@@ -34,12 +34,12 @@
 							<li class="menu-item"><a href="#pricing" onclick="display_menu(1)">Pricing</a></li>
 							<li class="menu-item"><a href="#portfolio" onclick="display_menu(2)"><strong>Portfolio</strong></a>
 								<ul class="sub-menu" id="sub-menu">
-									<li class="sub-item"><a href="#">Architecture</a></li>
-									<li class="sub-item"><a href="#">Automotive</a></li>
-									<li class="sub-item"><a href="#">Landscapes</a></li>
-									<li class="sub-item"><a href="#">Portraits</a></li>
-									<li class="sub-item"><a href="#">Graduation</a></li>
-									<li class="sub-item"><a href="#">Wedding</a></li>
+									<li class="sub-item"><a href="#" onclick="submenu_action()">Architecture</a></li>
+									<li class="sub-item"><a href="#" onclick="submenu_action()">Automotive</a></li>
+									<li class="sub-item"><a href="#" onclick="submenu_action()">Landscapes</a></li>
+									<li class="sub-item"><a href="#" onclick="submenu_action()">Portraits</a></li>
+									<li class="sub-item"><a href="#" onclick="submenu_action()">Graduation</a></li>
+									<li class="sub-item"><a href="#" onclick="submenu_action()">Wedding</a></li>
 								</ul> <!-- /sub-menu -->
 							</li>
 							<li class="menu-item"><a href="#connect" onclick="display_menu(3)">Connect</a></li>
