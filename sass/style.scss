@@ -21,7 +21,7 @@ html, body {
  .logo-shift-right,
  .menu-wrap,
  #sub-menu,
- main#main-content {
+ section#portfolio {
 	-webkit-transition: all ease-in-out .3s; /* Safari */
   	transition: all ease-in-out .3s;
 }
@@ -179,8 +179,8 @@ body {
 	font-weight: 300;
 }
 
-/* MAIN CONTENT */
-main#main-content {
+/* PORTFOLIO SECTION */
+section#portfolio {
     position: fixed;
     top: 0;
     left: 0;
@@ -263,7 +263,7 @@ div#photos-selector::-webkit-scrollbar-thumb {
 .thumbnail img {
 	width: 100%;
 }
-/* END MAIN CONTENT */
+/* END PORTFOLIO SECTION */
 
 .design-message {
 	position: absolute;
