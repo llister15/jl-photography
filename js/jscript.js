@@ -52,8 +52,17 @@ function submenu_action(el) {
 		var args = "post"+el.textContent;
   	xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-    	alert(this.responseText);
-      document.getElementById("photos-selector").innerHTML = this.responseText;
+    	var data = JSON.parse(this.responseText);
+    	var i = 0;
+    	var output = "";
+    	while( i < data.length) {
+    		if (i == 0) {
+    			document.getElementById("photo-viewer").innerHTML = '<img src="./img/'+ el.textContent + '/' + data[i] +'" class="in-viewer" />';
+    		}
+    		output += '<div class="thumbnail"><a href="#" onclick="load_img(this)"><img src="./img/'+ el.textContent + '/' + data[i] + '" /></a></div>';
+      	i++;
+    	}
+    	document.getElementById("photos-selector").innerHTML = output;
     }
   };
   xhttp.open("POST", "./php/ajax.php", true);

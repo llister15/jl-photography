@@ -14,8 +14,8 @@ html, body {
 /* TRANSITIONS */
  .main-nav a, .active,
  .main-nav {
-	-webkit-transition: all ease-in-out .1s; /* Safari */
-  transition: all ease-in-out .1s;	
+	-webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;	
  }
 
  .logo-shift-right,
@@ -206,21 +206,61 @@ div#category-title {
 
 div#photo-viewer {
     position: absolute;
-    border: 1px solid #fff;
     left: 75px;
     right: 75px;
-    height: 500px;
+    height: 600px;
     top: 75px;
+    text-align: center;
+}
+
+.in-viewer {
+	max-height: 100%;
 }
 
 div#photos-selector {
     position: absolute;
-    border: 1px solid #fff;
-    left: 75px;
-    right: 75px;
-    height: 250px;
-    bottom: 25px;
+    background: rgba(0,0,0,0.7);
+    left: 18.8%;
+    width: 62.5%;
+    height: 205px;
+    bottom: 15px;
     overflow: scroll;
+    -webkit-box-shadow: inset 0 0 6px rgba(59, 37, 239,0.8); 
+    box-shadow: inset 0 0 6px rgba(59, 37, 239,0.8); 
+}
+
+div#photos-selector::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+div#photos-selector::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(59, 37, 239,0.8); 
+    box-shadow: inset 0 0 6px rgba(59, 37, 239,0.8); 
+    border-radius: 4px;
+}
+
+div#photos-selector::-webkit-scrollbar-corner {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0); 
+	box-shadow: inset 0 0 6px rgba(0,0,0,0); 
+}
+
+div#photos-selector::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    -webkit-box-shadow:inset 0 0 6px rgba(59, 37, 239,0.8); 
+    box-shadow:inset 0 0 6px rgba(59, 37, 239,0.8); 
+}
+
+.thumbnail {
+	position: relative;
+	display: inline-block;
+	width: 33.3%;
+	padding: 15px;
+	float: left;
+}
+
+.thumbnail img {
+	width: 100%;
 }
 /* END MAIN CONTENT */
 
