@@ -128,7 +128,7 @@
 									<li class="package-item">1-Location Shoot</li>
 									<li class="package-item">6 Digital Files</li>
 									<li class="package-item">Print Release</li>
-									<li class="package-item">&nbsp;</li>
+									<li class="package-item">Best Value</li>
 								</ul>
 							</div>
 							<div class="cta-btn">
@@ -150,7 +150,7 @@
 							<li class=""><a href="https://www.instagram.com/jonathan_7ister/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
 							<li class=""><a href="#" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
 							<li class=""><a href="https://www.snapchat.com/" target="_blank"><i class="fa fa-snapchat"></i> Snapchat</a>
-							<li class=""><a href="mailto:jonathanl2013@hotmail.com" target="_blank"><i class="fa fa-envelope-open-o"> </i> Email</a>
+							<li class=""><a href="mailto:jonathanl2013@hotmail.com"><i class="fa fa-envelope-open-o"> </i> Email</a>
 						</ul> <!-- /social-list -->
 					</div>
 			</section>
