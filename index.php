@@ -53,16 +53,16 @@
 					</div> <!-- /design-message -->
 			</header> <!-- /header -->
 			<section id="pricing">
-					<div id="pricing-title">Pricing</div>
+					<div id="pricing-title" class="section-titles">Pricing</div>
 					<div id="pricing-content"></div>
 			</section>
 			<section id="portfolio">
-				<div id="category-title"></div>
+				<div id="category-title" class="section-titles"></div>
 				<div id="photo-viewer"></div>
 				<div id="photos-selector"></div>
 			</section>
 			<section id="connect">
-					<div id="connect-title">Follow Me</div>
+					<div id="connect-title" class="section-titles">Follow Me</div>
 					<div id="connect-content">
 						<ul id="social-list">
 							<i class="fa fa-facebook">Facebook</i>
@@ -73,7 +73,7 @@
 					</div>
 			</section>
 			<section id="about">
-					<div id="about-title"></div>
+					<div id="about-title" class="section-titles">My Info</div>
 					<div id="about-content">
 						BIO is the world's largest trade association representing biotechnology companies, academic institutions, state biotechnology centers and related organizations across the United States and in more than 30 other nations. BIO members are involved in the research and development of innovative healthcare, agricultural, industrial and environmental biotechnology products. BIO also produces the BIO International Convention, the world’s largest gathering of the biotechnology industry, along with industry-leading investor and partnering meetings held around the world. BIOtechNOW is BIO's blog chronicling “innovations transforming our world” and the BIO Newsletter is the organization’s bi-weekly email newsletter.” Subscribe to the BIO Newsletter.
 

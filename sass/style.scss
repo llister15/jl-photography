@@ -23,10 +23,16 @@ html, body {
  #sub-menu,
  section#pricing,
  section#portfolio,
+ div#photo-viewer,
  section#connect,
  section#about {
 	-webkit-transition: all ease-in-out .3s; /* Safari */
   	transition: all ease-in-out .3s;
+}
+
+ div#photo-viewer {
+	-webkit-transition: opacity ease-in-out .5s; /* Safari */
+  	transition: opacity ease-in-out .5s;
 }
 
 
@@ -90,7 +96,7 @@ body {
 	max-width: 260px;
 	margin: 0 auto;
 	float: right;
-	right: calc(85% / 2);
+	right: 42.5%;
 }
 
 .header-content {
@@ -182,6 +188,20 @@ body {
 	font-weight: 300;
 }
 
+/* SECTION TITLES */
+div.section-titles {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 8px;
+    margin: 15px;
+}
+/* END SECTION TITLES */
+
 /* PRICING SECTION */
 section#pricing {
     position: fixed;
@@ -209,23 +229,12 @@ section#portfolio {
     overflow: hidden;
 }
 
-div#category-title {
-    position: relative;
-    width: 100%;
-    height: 50px;
-    top: 25px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    padding: 8px;
-}
-
 div#photo-viewer {
     position: relative;
+    opacity: 0;
     padding: 15px;
     max-width: 90%;
     height: 600px;
-    top: 25px;
     text-align: center;
     margin: auto;
 }
