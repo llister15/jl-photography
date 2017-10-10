@@ -99,8 +99,10 @@ function submenu_action(el) {
 				document.getElementById('category-title').innerHTML = ':::  ' + el.textContent + '  :::';
 				document.getElementById("category-title").style.opacity = 1;
 			}, 500);
+    			output += '<div class="thumbnail active"><a href="#" onclick="load_img(this)"><img src="./img/'+ el.textContent + '/' + data[i] + '" /></a></div>';
+    		} else {
+    			output += '<div class="thumbnail"><a href="#" onclick="load_img(this)"><img src="./img/'+ el.textContent + '/' + data[i] + '" /></a></div>';
     		}
-    		output += '<div class="thumbnail"><a href="#" onclick="load_img(this)"><img src="./img/'+ el.textContent + '/' + data[i] + '" /></a></div>';
       		i++;
     	}
     	document.getElementById("photos-selector").innerHTML = output;
@@ -143,8 +145,13 @@ function load_img(el) {
 		document.getElementById("photo-viewer").style.opacity = 0;
 	}, 0);
 	setTimeout(function() {
+		var i;
+		for (i = 0; i < photo_selected.length; i++) {
+			photo_selected[i].classList.remove('active');
+		}
 		var img = el.getElementsByTagName('img')[0];
 		document.getElementById("photo-viewer").innerHTML = '<img src="' + img.src + '" class="in-viewer" />';
 		document.getElementById("photo-viewer").style.opacity = 1;
+		el.parentElement.classList.add('active');
 	}, 500);
 }
