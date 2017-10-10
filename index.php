@@ -63,16 +63,16 @@
 								$100.00
 							</div>
 							<div class="ptable-content">
-								Basic Package solution
+								1 Hour
 								<ul class="package-list">
-									<li class="package-item">Unlimited calls</li>
-									<li class="package-item">Free hosting</li>
-									<li class="package-item">Unlimited emails</li>
-									<li class="package-item">40GB of storage space</li>
+									<li class="package-item">1-Location Shoot</li>
+									<li class="package-item">10 Digital Files</li>
+									<li class="package-item">$10 Print Credit</li>
+									<li class="package-item">Print Release</li>
 								</ul>
 							</div>
 							<div class="cta-btn">
-								<a href="#" class="btn">Choose Package</a>
+								<a href="#" class="btn">Book Now</a>
 							</div>
 						</div>
 						<div id="ptable-2" class="pricing-tables">
@@ -83,18 +83,16 @@
 								$150.00
 							</div>
 							<div class="ptable-content">
-								Standard Package solution
+								1.5 Hours
 								<ul class="package-list">
-									<li class="package-item">Unlimited calls</li>
-									<li class="package-item">Free hosting</li>
-									<li class="package-item">Unlimited emails</li>
-									<li class="package-item">40GB of storage space</li>
-									<li class="package-item">40GB of storage space</li>
-									<li class="package-item">40GB of storage space</li>
+									<li class="package-item">2-Location Shoot</li>
+									<li class="package-item">25 Digital Files</li>
+									<li class="package-item">$20 Print Credit</li>
+									<li class="package-item">Print Release</li>
 								</ul>
 							</div>
 							<div class="cta-btn">
-								<a href="#" class="btn">Choose Package</a>
+								<a href="#" class="btn">Book Now</a>
 							</div>
 						</div>
 						<div id="ptable-3" class="pricing-tables">
@@ -105,20 +103,36 @@
 								$200.00
 							</div>
 							<div class="ptable-content">
-								Professional Package solution
+								1.5-Hour Shoot
 								<ul class="package-list">
-									<li class="package-item">Unlimited calls</li>
-									<li class="package-item">Free hosting</li>
-									<li class="package-item">Unlimited emails</li>
-									<li class="package-item">40GB of storage space</li>
-									<li class="package-item">40GB of storage space</li>
-									<li class="package-item">40GB of storage space</li>
-									<li class="package-item">40GB of storage space</li>
-									<li class="package-item">40GB of storage space</li>
+									<li class="package-item">2-Location Shoot</li>
+									<li class="package-item">35 Digital Files</li>
+									<li class="package-item">$30 Print Credit</li>
+									<li class="package-item">Print Release</li>
 								</ul>
 							</div>
 							<div class="cta-btn">
-								<a href="#" class="btn">Choose Package</a>
+								<a href="#" class="btn">Book Now</a>
+							</div>
+						</div>
+						<div id="ptable-4" class="pricing-tables">
+							<div class="ptable-header">
+								Mini
+							</div>
+							<div class="ptable-price">
+								$75.00
+							</div>
+							<div class="ptable-content">
+								45 Minutes
+								<ul class="package-list">
+									<li class="package-item">1-Location Shoot</li>
+									<li class="package-item">6 Digital Files</li>
+									<li class="package-item">Print Release</li>
+									<li class="package-item">&nbsp;</li>
+								</ul>
+							</div>
+							<div class="cta-btn">
+								<a href="#" class="btn">Book Now</a>
 							</div>
 						</div>
 					</div>
