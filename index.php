@@ -54,7 +54,41 @@
 			</header> <!-- /header -->
 			<section id="pricing">
 					<div id="pricing-title" class="section-titles">Pricing</div>
-					<div id="pricing-content"></div>
+					<div id="pricing-content">
+						<div id="ptable-1">
+							<div class="ptable-header">
+								Header Here
+							</div>
+							<div class="ptable-content">
+								Content Here
+							</div>
+							<div class="ptable-price">
+								Price Here
+							</div>
+						</div>
+						<div id="ptable-2">
+							<div class="ptable-header">
+								Header Here
+							</div>
+							<div class="ptable-content">
+								Content Here
+							</div>
+							<div class="ptable-price">
+								Price Here
+							</div>
+						</div>
+						<div id="ptable-3">
+							<div class="ptable-header">
+								Header Here
+							</div>
+							<div class="ptable-content">
+								Content Here
+							</div>
+							<div class="ptable-price">
+								Price Here
+							</div>
+						</div>
+					</div>
 			</section>
 			<section id="portfolio">
 				<div id="category-title" class="section-titles"></div>
@@ -74,6 +108,9 @@
 					</div>
 			</section>
 			<section id="about">
+					<div id="about-image">
+						<img class="profile-image" src="img/profile-image.jpg" alt="profile" />
+					</div>
 					<div id="about-title" class="section-titles">My Bio</div>
 					<div id="about-content">
 						HEY THERE, this is my Website! I am a photographer from California on the lower side of this tall state. My passion for photography started to grow in 2014 when I got my first point and shoot and oohh man they were amazing professional shots “to my eyes they were, just kidding”. My early days of photography I found myself very frustrated and confused on how can I improve my photos drastically . As days, months, and years have past I have trained my eye to see well thought out compositions and avoid major flaws. I am self taught and I enjoy learning new things. I am kinda shy but open to conversations, I am very quiet but listen carefully, I am a funny, creative, great, friendly guy. There you go, a little bit about me. Explore my website as much as you like and connect with me! Click the connect menu on the right.
