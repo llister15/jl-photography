@@ -156,11 +156,10 @@ body {
 	text-decoration: none;
 	color: #fff;
 	overflow: hidden;
-}
-
-.main-nav a:hover {
-	padding-right: 20px;
-	font-size: 2.6rem;
+	&:hover {
+		padding-right: 20px;
+		font-size: 2.6rem;
+	}
 }
 
 #sub-menu {
@@ -182,11 +181,10 @@ body {
 .sub-menu a {
 	text-decoration:none;
 	color: #fff;
-}
-
-.sub-menu a:hover {
-	font-size: 1.9rem;
-	font-weight: 300;
+	&:hover {
+		font-size: 1.9rem;
+		font-weight: 300;
+	}
 }
 
 /* SECTION TITLES */

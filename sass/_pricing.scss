@@ -21,6 +21,13 @@ section#pricing {
 		.pricing-tables {
 			display: inline-block;
 			width: 32.3%;
+			.ptable-content {
+				ul.package-list {
+				    list-style: none;
+				    padding: 8px 0 15px 75px;
+				    text-align: left;
+				}
+			}
 		}
 	}
 
