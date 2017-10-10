@@ -11,6 +11,7 @@ var about = document.getElementById('about');
 var menulist = document.getElementsByClassName('menu-item');
 var submenu = document.getElementById('sub-menu');
 var active = document.getElementsByClassName('active');
+var photo_selected = document.getElementById('photos-selector').getElementsByClassName('thumbnail');
 
 function display_menu( item, el ) {
 
