@@ -65,7 +65,7 @@
 					<div id="connect-title" class="section-titles">Follow Me</div>
 					<div id="connect-content">
 						<ul id="social-list">
-							<i class="fa fa-facebook">Facebook</i>
+							<li class=""><a href="#"><i class="fa fa-facebook">Facebook</i></a></li>
 							<i class="fa fa-instagram">Instagram</i>
 							<i class="fa fa-twitter">Twitter</i>
 							<i class="fa fa-snapchat">Snapchat</i>
@@ -75,11 +75,7 @@
 			<section id="about">
 					<div id="about-title" class="section-titles">My Info</div>
 					<div id="about-content">
-						BIO is the world's largest trade association representing biotechnology companies, academic institutions, state biotechnology centers and related organizations across the United States and in more than 30 other nations. BIO members are involved in the research and development of innovative healthcare, agricultural, industrial and environmental biotechnology products. BIO also produces the BIO International Convention, the world’s largest gathering of the biotechnology industry, along with industry-leading investor and partnering meetings held around the world. BIOtechNOW is BIO's blog chronicling “innovations transforming our world” and the BIO Newsletter is the organization’s bi-weekly email newsletter.” Subscribe to the BIO Newsletter.
-
-						Corporate members range from entrepreneurial companies developing a first product to Fortune 500 multinationals. We also represent state and regional biotech associations, service providers to the industry, and academic centers.  Our members help foster a healthy economy by creating good-paying, biotechnology jobs. We also host the largest cost-savings program in the life sciences industry, BIO Business Solutions, which saved $315 million in aggregate for 3,000+ companies last year. 
-
-						BIO also works towards enriching the industry with networking, partnering and education opportunities. We organize the BIO International Convention, the global event for biotechnology, along with many other industry-leading investor and partnering events held around the world. Arguably the industry’s leading partnering software, BIO One-on-One Partnering™ facilitates 50,000 face-to-face meetings each year among investors, biotechs, pharmaceutical companies, academic institutions and non-profits at live events.
+						HEY THERE, this is my Website! I am a photographer from California on the lower side of this tall state. My passion for photography started to grow in 2014 when I got my first point and shoot and oohh man they were amazing professional shots “to my eyes they were, just kidding”. My early days of photography I found myself very frustrated and confused on how can I improve my photos drastically . As days, months, and years have past I have trained my eye to see well thought out compositions and avoid major flaws. I am self taught and I enjoy learning new things. I am kinda shy but open to conversations, I am very quiet but listen carefully, I am a funny, creative, great, friendly guy. There you go, a little bit about me. Explore my website as much as you like!
 					</div>
 			</section>
 
