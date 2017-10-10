@@ -77,7 +77,6 @@ function submenu_action(el) {
 	var menushift = document.getElementsByClassName('menu-wrap')[0];
 		menushift.style.right ="-224px";
 		portfolio.style.width = "75%";
-		document.getElementById('category-title').innerHTML = ':::  ' + el.textContent + '  :::';
 
 		var xhttp = new XMLHttpRequest();
 		var args = "post"+el.textContent;
@@ -90,11 +89,14 @@ function submenu_action(el) {
     		if (i == 0) {
     			setTimeout(function() {
 				document.getElementById("photo-viewer").style.opacity = 0;
+				document.getElementById("category-title").style.opacity = 0;
 			}, 0);
     			var current_img = data[i];
 			setTimeout(function() {
 				document.getElementById("photo-viewer").innerHTML = '<img src="./img/'+ el.textContent + '/' + current_img +'" class="in-viewer" />';
 				document.getElementById("photo-viewer").style.opacity = 1;
+				document.getElementById('category-title').innerHTML = ':::  ' + el.textContent + '  :::';
+				document.getElementById("category-title").style.opacity = 1;
 			}, 500);
     		}
     		output += '<div class="thumbnail"><a href="#" onclick="load_img(this)"><img src="./img/'+ el.textContent + '/' + data[i] + '" /></a></div>';
