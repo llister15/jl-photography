@@ -12,6 +12,10 @@ section#connect {
     z-index: 10;
     background: rgba(0,0,0,0.9);
     overflow: hidden;
+    #connect-title {
+        font-size: 40px;
+        line-height: 1;
+    }
     #social-list {
         list-style-type:none;
         font-size: 35px;
@@ -20,6 +24,33 @@ section#connect {
         li {
             display: block;
             padding: 15px;
+            .fa {
+                display: block;
+                width: 75px;
+                height: 75px;
+                padding: 20px;
+                margin: auto;
+                border-radius: 50% 0;
+                &:before {
+                    -webkit-text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+                    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+                }
+            }
+            .fa-facebook {
+                background: #3b5998;
+            }
+            .fa-instagram {
+                background: #c32aa3;
+            }
+            .fa-twitter {
+                background: #00b6f1;
+            }
+            .fa-snapchat {
+                background: #fffc00;
+            }
+            .fa-envelope-open-o {
+                background: #777;
+            }
         }
     }
     #social-list a {
