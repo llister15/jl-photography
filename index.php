@@ -57,35 +57,68 @@
 					<div id="pricing-content">
 						<div id="ptable-1" class="pricing-tables">
 							<div class="ptable-header">
-								Header Here
-							</div>
-							<div class="ptable-content">
-								Content Here
+								Starter
 							</div>
 							<div class="ptable-price">
-								Price Here
+								$100.00
+							</div>
+							<div class="ptable-content">
+								Basic Package solution
+								<ul class="package-list">
+									<li class="package-item">Unlimited calls</li>
+									<li class="package-item">Free hosting</li>
+									<li class="package-item">Unlimited emails</li>
+									<li class="package-item">40GB of storage space</li>
+								</ul>
+							</div>
+							<div class="cta-btn">
+								<a href="#" class="btn">Choose Package</a>
 							</div>
 						</div>
 						<div id="ptable-2" class="pricing-tables">
 							<div class="ptable-header">
-								Header Here
-							</div>
-							<div class="ptable-content">
-								Content Here
+								Standard
 							</div>
 							<div class="ptable-price">
-								Price Here
+								$150.00
+							</div>
+							<div class="ptable-content">
+								Standard Package solution
+								<ul class="package-list">
+									<li class="package-item">Unlimited calls</li>
+									<li class="package-item">Free hosting</li>
+									<li class="package-item">Unlimited emails</li>
+									<li class="package-item">40GB of storage space</li>
+									<li class="package-item">40GB of storage space</li>
+									<li class="package-item">40GB of storage space</li>
+								</ul>
+							</div>
+							<div class="cta-btn">
+								<a href="#" class="btn">Choose Package</a>
 							</div>
 						</div>
 						<div id="ptable-3" class="pricing-tables">
 							<div class="ptable-header">
-								Header Here
-							</div>
-							<div class="ptable-content">
-								Content Here
+								Premium
 							</div>
 							<div class="ptable-price">
-								Price Here
+								$200.00
+							</div>
+							<div class="ptable-content">
+								Professional Package solution
+								<ul class="package-list">
+									<li class="package-item">Unlimited calls</li>
+									<li class="package-item">Free hosting</li>
+									<li class="package-item">Unlimited emails</li>
+									<li class="package-item">40GB of storage space</li>
+									<li class="package-item">40GB of storage space</li>
+									<li class="package-item">40GB of storage space</li>
+									<li class="package-item">40GB of storage space</li>
+									<li class="package-item">40GB of storage space</li>
+								</ul>
+							</div>
+							<div class="cta-btn">
+								<a href="#" class="btn">Choose Package</a>
 							</div>
 						</div>
 					</div>
