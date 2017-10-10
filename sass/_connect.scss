@@ -16,9 +16,10 @@ section#connect {
         list-style-type:none;
         font-size: 35px;
         text-align: center;
+        padding: 0;
         li {
-            display: inline-block;
-            padding: 15px
+            display: block;
+            padding: 15px;
         }
     }
     #social-list a {
