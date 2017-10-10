@@ -21,7 +21,10 @@ html, body {
  .logo-shift-right,
  .menu-wrap,
  #sub-menu,
- section#portfolio {
+ section#pricing,
+ section#portfolio,
+ section#connect,
+ section#about {
 	-webkit-transition: all ease-in-out .3s; /* Safari */
   	transition: all ease-in-out .3s;
 }
@@ -179,6 +182,20 @@ body {
 	font-weight: 300;
 }
 
+/* PRICING SECTION */
+section#pricing {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    display: block;
+    z-index: 10;
+    background: rgba(0,0,0,0.9);
+    overflow: hidden;
+}
+/* END PRICING SECTION */
+
 /* PORTFOLIO SECTION */
 section#portfolio {
     position: fixed;
@@ -264,6 +281,34 @@ div#photos-selector::-webkit-scrollbar-thumb {
 	width: 100%;
 }
 /* END PORTFOLIO SECTION */
+
+/* CONNECT SECTION */
+section#connect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    display: block;
+    z-index: 10;
+    background: rgba(0,0,0,0.9);
+    overflow: hidden;
+}
+/* END CONNECT SECTION */
+
+/* ABOUT SECTION */
+section#about {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    display: block;
+    z-index: 10;
+    background: rgba(0,0,0,0.9);
+    overflow: hidden;
+}
+/* END ABOUT SECTION */
 
 .design-message {
 	position: absolute;

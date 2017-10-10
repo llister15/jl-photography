@@ -3,7 +3,13 @@
 // since 1.0.0
 // package Jonathan
 
-function display_menu( item ) {
+var logo = document.getElementsByClassName('top-logo')[0];
+var pricing = document.getElementById('pricing');
+var portfolio = document.getElementById('portfolio');
+var connect = document.getElementById('connect');
+var about = document.getElementById('about');
+
+function display_menu( item, el ) {
 	var menulist = document.getElementsByClassName('menu-item');
 	var submenu = document.getElementById('sub-menu');
 	var active = document.getElementsByClassName('active');
@@ -15,20 +21,37 @@ function display_menu( item ) {
 		for (i = 0; i < menulist.length; i++) {
 			menulist[i].classList.remove('active');
 		}
-		var pricing = document.getElementById('pricing');
 		pricing.style.width = "75%";
+		portfolio.style.width = "0";
+		connect.style.width = "0";
+		about.style.width = "0";
+		menu_action(el);
 		break;
 		case 2:
+		pricing.style.width = "0";
+		connect.style.width = "0";
+		about.style.width = "0";
 		submenu.style.opacity="1";
 		menulist[1].classList.add('active');
+		home();
 		break;
 		case 3:
+		pricing.style.width = "0";
+		portfolio.style.width = "0";
+		connect.style.width = "75%";
+		about.style.width = "0";
 		submenu.style.opacity = "0";
 		menulist[1].classList.remove('active');
+		menu_action(el);
 		break;
 		case 4:
+		pricing.style.width = "0";
+		portfolio.style.width = "0";
+		connect.style.width = "0";
+		about.style.width = "75%";
 		submenu.style.opacity = "0";
 		menulist[1].classList.remove('active');
+		menu_action(el);
 		break;
 		default:
 		for (i = 0; i < menulist.length; i++) {
@@ -37,16 +60,24 @@ function display_menu( item ) {
 	}
 }
 
+function menu_action(el) {
+	logo.classList.add('logo-shift-right');
+	setTimeout(function() {
+	var logoshift = document.getElementsByClassName('logo-shift-right')[0];
+		logoshift.style.right ="75px";
+	var menushift = document.getElementsByClassName('menu-wrap')[0];
+		menushift.style.right ="40px";
+	}, 0);
+}
+
 function submenu_action(el) {
-	var logo = document.getElementsByClassName('top-logo')[0];
 	logo.classList.add('logo-shift-right');
 	setTimeout(function() {
 	var logoshift = document.getElementsByClassName('logo-shift-right')[0];
 		logoshift.style.right ="75px";
 	var menushift = document.getElementsByClassName('menu-wrap')[0];
 		menushift.style.right ="-224px";
-	var maincontent = document.getElementById('portfolio');
-		maincontent.style.width = "75%";
+		portfolio.style.width = "75%";
 		document.getElementById('category-title').innerHTML = ':::  ' + el.textContent + '  :::';
 
 		var xhttp = new XMLHttpRequest();
@@ -81,8 +112,18 @@ function home() {
 		logoshift.style.right ="calc(85% / 2)";
 	var menushift = document.getElementsByClassName('menu-wrap')[0];
 		menushift.style.right ="280px";
-		var maincontent = document.getElementById('portfolio');
-		maincontent.style.width = "0%";
+	if (pricing.style.width == '75%') {
+		pricing.style.width = "0";
+	}
+	if (portfolio.style.width == '75%') {
+		portfolio.style.width = "0";
+	}
+	if (connect.style.width == '75%') {
+		connect.style.width = "0";
+	}
+	if (about.style.width == '75%') {
+		about.style.width = "0";
+	}
 }, 0);
 }
 

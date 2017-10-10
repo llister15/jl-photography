@@ -32,8 +32,8 @@
 				<div class="header-content">
 					<div class="menu-wrap">
 						<ul class="main-nav" id="main-nav">
-							<li class="menu-item"><a href="#pricing" onclick="display_menu(1)">Pricing</a></li>
-							<li class="menu-item"><a href="#portfolio" onclick="display_menu(2)"><strong>Portfolio</strong></a>
+							<li class="menu-item"><a href="#pricing" onclick="display_menu(1, this)">Pricing</a></li>
+							<li class="menu-item"><a href="#portfolio" onclick="display_menu(2, this)"><strong>Portfolio</strong></a>
 								<ul class="sub-menu" id="sub-menu">
 									<li class="sub-item"><a href="#" onclick="submenu_action(this)">Architecture</a></li>
 									<li class="sub-item"><a href="#" onclick="submenu_action(this)">Automotive</a></li>
@@ -43,8 +43,8 @@
 									<li class="sub-item"><a href="#" onclick="submenu_action(this)">Wedding</a></li>
 								</ul> <!-- /sub-menu -->
 							</li>
-							<li class="menu-item"><a href="#connect" onclick="display_menu(3)">Connect</a></li>
-							<li class="menu-item"><a href="#about-me" onclick="display_menu(4)">About me</a></li>
+							<li class="menu-item"><a href="#connect" onclick="display_menu(3, this)">Connect</a></li>
+							<li class="menu-item"><a href="#about-me" onclick="display_menu(4, this)">About me</a></li>
 						</ul>
 					</div> <!-- /menu-wrap -->
 				</div> <!-- /header-content -->
