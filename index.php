@@ -55,7 +55,7 @@
 			<section id="pricing">
 					<div id="pricing-title" class="section-titles">Pricing</div>
 					<div id="pricing-content">
-						<div id="ptable-1">
+						<div id="ptable-1" class="pricing-tables">
 							<div class="ptable-header">
 								Header Here
 							</div>
@@ -66,7 +66,7 @@
 								Price Here
 							</div>
 						</div>
-						<div id="ptable-2">
+						<div id="ptable-2" class="pricing-tables">
 							<div class="ptable-header">
 								Header Here
 							</div>
@@ -77,7 +77,7 @@
 								Price Here
 							</div>
 						</div>
-						<div id="ptable-3">
+						<div id="ptable-3" class="pricing-tables">
 							<div class="ptable-header">
 								Header Here
 							</div>
@@ -99,11 +99,11 @@
 					<div id="connect-title" class="section-titles">Follow Me</div>
 					<div id="connect-content">
 						<ul id="social-list">
-							<li class=""><a href="#" target="_blank"><i class="fa fa-facebook"> Facebook</i></a></li>
-							<li class=""><a href="https://www.instagram.com/jonathan_7ister/" target="_blank"><i class="fa fa-instagram"> Instagram</i></a>
-							<li class=""><a href="#" target="_blank"><i class="fa fa-twitter"> Twitter</i></a>
-							<li class=""><a href="https://www.snapchat.com/" target="_blank"><i class="fa fa-snapchat"> Snapchat</i></a>
-							<li class=""><a href="mailto:jonathanl2013@hotmail.com" target="_blank"><i class="fa fa-envelope-open-o"> Email</i></a>
+							<li class=""><a href="#" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+							<li class=""><a href="https://www.instagram.com/jonathan_7ister/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
+							<li class=""><a href="#" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+							<li class=""><a href="https://www.snapchat.com/" target="_blank"><i class="fa fa-snapchat"></i> Snapchat</a>
+							<li class=""><a href="mailto:jonathanl2013@hotmail.com" target="_blank"><i class="fa fa-envelope-open-o"> </i> Email</a>
 						</ul> <!-- /social-list -->
 					</div>
 			</section>

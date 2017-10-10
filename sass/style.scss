@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
+
 * {
 	box-sizing: border-box;
 }
@@ -199,129 +200,89 @@ div.section-titles {
     font-size: 24px;
     font-weight: 700;
     padding: 8px;
-    margin: 15px;
+    margin: 15px auto;
 }
 /* END SECTION TITLES */
 
 /* PRICING SECTION */
-section#pricing {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    display: block;
-    z-index: 10;
-    background: rgba(0,0,0,0.9);
-    overflow: hidden;
-}
+@import '_pricing.scss';
 /* END PRICING SECTION */
 
 /* PORTFOLIO SECTION */
 section#portfolio {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    display: block;
-    z-index: 10;
-    background: rgba(0,0,0,0.9);
-    overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0%;
+	display: block;
+	z-index: 10;
+	background: rgba(0,0,0,0.9);
+	overflow: hidden;
+	div#category-title {
+		opacity: 0;
+	}
+	div#photo-viewer {
+	    position: relative;
+	    opacity: 0;
+	    padding: 15px;
+	    max-width: 90%;
+	    height: 600px;
+	    text-align: center;
+	    margin: auto;
+	}
+	.in-viewer {
+		max-height: 100%;
+		max-width: 100%;
+	}
+	div#photos-selector {
+	    position: relative;
+	    background: rgba(0,0,0,0.7);
+	    margin: auto;
+	    width: 62.5%;
+	    height: 205px;
+	    top: 35px;
+	    overflow: scroll;
+	    -webkit-box-shadow: inset 0 0 6px rgba(59, 37, 239,0.8); 
+	    box-shadow: inset 0 0 6px rgba(59, 37, 239,0.8); 
+	}
+	div#photos-selector::-webkit-scrollbar {
+	    width: 8px;
+	    height: 8px;
+	}
+	div#photos-selector::-webkit-scrollbar-track {
+	    -webkit-box-shadow: inset 0 0 6px rgba(59, 37, 239,0.8); 
+	    box-shadow: inset 0 0 6px rgba(59, 37, 239,0.8); 
+	    border-radius: 4px;
+	}
+	div#photos-selector::-webkit-scrollbar-corner {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0); 
+		box-shadow: inset 0 0 6px rgba(0,0,0,0); 
+	}
+	div#photos-selector::-webkit-scrollbar-thumb {
+	    border-radius: 4px;
+	    -webkit-box-shadow:inset 0 0 6px rgba(59, 37, 239,0.8); 
+	    box-shadow:inset 0 0 6px rgba(59, 37, 239,0.8); 
+	}
+	.thumbnail {
+		position: relative;
+		display: inline-block;
+		width: 33.3%;
+		padding: 15px;
+		float: left;
+		img {
+			width: 100%;
+		}
+	}
 }
 
-div#category-title {
-	opacity: 0;
-}
-
-div#photo-viewer {
-    position: relative;
-    opacity: 0;
-    padding: 15px;
-    max-width: 90%;
-    height: 600px;
-    text-align: center;
-    margin: auto;
-}
-
-.in-viewer {
-	max-height: 100%;
-	max-width: 100%;
-}
-
-div#photos-selector {
-    position: relative;
-    background: rgba(0,0,0,0.7);
-    margin: auto;
-    width: 62.5%;
-    height: 205px;
-    top: 35px;
-    overflow: scroll;
-    -webkit-box-shadow: inset 0 0 6px rgba(59, 37, 239,0.8); 
-    box-shadow: inset 0 0 6px rgba(59, 37, 239,0.8); 
-}
-
-div#photos-selector::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-}
-
-div#photos-selector::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(59, 37, 239,0.8); 
-    box-shadow: inset 0 0 6px rgba(59, 37, 239,0.8); 
-    border-radius: 4px;
-}
-
-div#photos-selector::-webkit-scrollbar-corner {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0); 
-	box-shadow: inset 0 0 6px rgba(0,0,0,0); 
-}
-
-div#photos-selector::-webkit-scrollbar-thumb {
-    border-radius: 4px;
-    -webkit-box-shadow:inset 0 0 6px rgba(59, 37, 239,0.8); 
-    box-shadow:inset 0 0 6px rgba(59, 37, 239,0.8); 
-}
-
-.thumbnail {
-	position: relative;
-	display: inline-block;
-	width: 33.3%;
-	padding: 15px;
-	float: left;
-}
-
-.thumbnail img {
-	width: 100%;
-}
 /* END PORTFOLIO SECTION */
 
 /* CONNECT SECTION */
-section#connect {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    display: block;
-    z-index: 10;
-    background: rgba(0,0,0,0.9);
-    overflow: hidden;
-}
+@import '_connect.scss';
 /* END CONNECT SECTION */
 
 /* ABOUT SECTION */
-section#about {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    display: block;
-    z-index: 10;
-    background: rgba(0,0,0,0.9);
-    overflow: hidden;
-}
+@import '_about.scss';
 /* END ABOUT SECTION */
 
 .design-message {
