@@ -40,8 +40,19 @@
 				<div class="top-logo-wrap">
 					<a href="#home" onclick="home()"><img src="img/logo.png" class="top-logo" alt="logo" /></a>
 				</div> <!-- /top-logo -->
+				<div class="mobile-menu-wrap">
+						<nav id="mobile-menu">
+						    <div id="menu-icon"><i class="fa fa-bars"></i></div>
+						    <ul id="mobile-ul">
+									<li><a href="#" onclick="display_menu(1, this)">Pricing</a></li>
+									<li><a href="#" onclick="display_menu(2, this)">Portfolio</a></li>
+									<li><a href="#" onclick="display_menu(3, this)">Connect</a></li>
+									<li><a href="#" onclick="display_menu(4, this)">About me</a></li>
+						    </ul>
+						</nav>
+					</div> <!-- /mobile menu-wrap -->
 				<div class="header-content">
-					<div class="menu-wrap">
+					<div class="menu-wrap desktop">
 						<ul class="main-nav" id="main-nav">
 							<li class="menu-item"><a href="#pricing" onclick="display_menu(1, this)">Pricing</a></li>
 							<li class="menu-item"><a href="#portfolio" onclick="display_menu(2, this)"><strong>Portfolio</strong></a>

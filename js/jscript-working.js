@@ -160,3 +160,20 @@ function load_img(el) {
 		el.parentElement.classList.add('active');
 	}, 500);
 }
+
+document.getElementById("menu-icon").addEventListener("click", function() {
+	var mobile_ul_li = document.getElementById("mobile-ul").children;
+		if ( mobile_ul_li[0].style.height == "50px" ) {
+			for (var i = 0; i < mobile_ul_li.length; i++) {
+				mobile_ul_li[i].style.height = "0px";
+				mobile_ul_li[i].style.padding = "0px";
+				mobile_ul_li[i].style.borderWidth = "0px";
+			}
+		} else {
+			for (var i = 0; i < mobile_ul_li.length; i++) {
+				mobile_ul_li[i].style.height = "50px";
+				mobile_ul_li[i].style.padding = "15px";
+				mobile_ul_li[i].style.borderWidth = "1px";
+			}
+		}
+});
