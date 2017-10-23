@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Photo Lister | Portfolio Site</title>
+	<title>JONATHAN LISTER | PHOTOGRAPHY</title>
 	<meta charset="UTF-8">
   <meta name="description" content="Jonathan Lister's portfolio site">
   <meta name="keywords" content="Photography, camera, photos, car photos, wedding photos, profiles, Architecture, Graduation">
@@ -20,6 +20,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link  rel="icon" type="image/ico" href="favicon.ico">
+  <link  rel="icon" type="image/png" href="favicon.png">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108482284-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108482284-1');
+  </script>
 </head>
 <body>
 	<div class="fullscreen-video-wrap">
@@ -54,6 +65,7 @@
 			</header> <!-- /header -->
 			<section id="pricing">
 					<div id="pricing-title" class="section-titles">Pricing</div>
+					<div id="photo-viewer-close"><a href="#" onclick="home()"><i class="fa fa-times"></i></a></div>
 					<div id="pricing-content">
 						<div id="ptable-1" class="pricing-tables">
 							<div class="ptable-header">
@@ -139,11 +151,13 @@
 			</section>
 			<section id="portfolio">
 				<div id="category-title" class="section-titles"></div>
+				<div id="photo-viewer-close"><a href="#" onclick="home()"><i class="fa fa-times"></i></a></div>
 				<div id="photo-viewer"></div>
 				<div id="photos-selector"></div>
 			</section>
 			<section id="connect">
 					<div id="connect-title" class="section-titles">Follow Me</div>
+					<div id="photo-viewer-close"><a href="#" onclick="home()"><i class="fa fa-times"></i></a></div>
 					<div id="connect-content">
 						<ul id="social-list">
 							<li class=""><a href="#" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
@@ -155,6 +169,8 @@
 					</div>
 			</section>
 			<section id="about">
+					<div id="about-title" class="section-titles"></div>
+				<div id="photo-viewer-close"><a href="#" onclick="home()"><i class="fa fa-times"></i></a></div>
 					<div id="about-image">
 						<img class="profile-image" src="img/profile-image.jpg" alt="profile" />
 					</div>

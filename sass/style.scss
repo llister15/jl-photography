@@ -117,6 +117,21 @@ body {
 	padding-bottom: 2rem;
 }
 
+/* Close btn for slideout content */
+
+div#photo-viewer-close {
+	  float: right;
+    position: relative;
+    top: -75px;
+    right: 15px;
+    color: #fff;
+    font-size: 35px;
+	a {
+		color:#ccc;
+	}
+}
+
+
 .menu-wrap {
 	position: relative;
 	right: 280px;

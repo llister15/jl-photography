@@ -79,6 +79,8 @@ function submenu_action(el) {
 		menushift.style.right ="-224px";
 		portfolio.style.width = "75%";
 
+		// Ajax setup to get images
+		// @Since 1.0.0
 		var xhttp = new XMLHttpRequest();
 		var args = "post"+el.textContent;
   	xhttp.onreadystatechange = function() {
@@ -109,6 +111,9 @@ function submenu_action(el) {
     	
     }
   };
+
+  // Ajax to load picture data to view
+  // @since 1.0.0 
   xhttp.open("POST", "./php/ajax.php", true);
   //Send the proper header information along with the request
 	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
